@@ -89,8 +89,8 @@ public class InternalMemory extends Fragment   implements ConnectivityReceiver.C
         packageManager = rootView.getContext().getPackageManager();
         listView=(ListView)rootView.findViewById(R.id.list);
         new LoadApplications().execute();
-       // new Crawling().execute();
-       // making_category_piechart(cat_piechart, social, maps_navigation, sports,news_mag);
+        new Crawling().execute();
+        making_category_piechart(cat_piechart, social, maps_navigation, sports,news_mag);
 
         mPieChart.startAnimation();
         cat_piechart.startAnimation();
