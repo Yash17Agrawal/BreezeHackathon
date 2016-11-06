@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.golu.health.MainActivity">
+
+
+    <TextView
+        android:id="@+id/smoking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Smoking"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/height"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:id="@+id/smokespinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/smoking"
+        android:layout_alignBottom="@+id/smoking"
+        android:layout_toEndOf="@id/smoking">
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight :"
+        android:id="@+id/weight"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/mass"
+        android:layout_toEndOf="@+id/weight" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height :"
+        android:id="@+id/height"
+        android:layout_below="@+id/mass"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kgs"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/mass" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ftspinner"
+        android:layout_alignTop="@+id/height"
+        android:layout_alignBottom="@+id/height"
+        android:layout_toEndOf="@+id/height"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ft."
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/ftspinner"
+        android:layout_toEndOf="@+id/mass" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inchspinner"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inch"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/inchspinner"
+        android:layout_toEndOf="@+id/inchspinner" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activeness :"
+        android:id="@+id/active"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/smoking"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activespinner"
+        android:layout_alignTop="@+id/active"
+        android:layout_alignBottom="@+id/active"
+        android:layout_toEndOf="@+id/active"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet : "
+        android:id="@+id/diet"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dietspinner"
+        android:layout_alignTop="@+id/diet"
+        android:layout_alignBottom="@+id/diet"
+        android:layout_toEndOf="@+id/diet"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diabetic :"
+        android:id="@+id/diabetic"
+        android:layout_below="@+id/diet"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diabeticspinner"
+        android:layout_alignTop="@+id/diabetic"
+        android:layout_alignBottom="@+id/diabetic"
+        android:layout_toEndOf="@+id/smoking" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure :"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/diabetic"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/highbp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/highbp"
+        android:layout_toEndOf="@+id/highbp" />
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lowbp"
+        android:layout_alignTop="@+id/highbp"
+        android:layout_toEndOf="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/lowbp"
+        android:layout_toEndOf="@+id/lowbp" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Health Index"
+        android:id="@+id/hicalculate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cholesterol :"
+        android:id="@+id/textView7"
+        android:layout_above="@+id/hicalculate"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/cholesterol"
+        android:layout_above="@+id/hicalculate"
+        android:layout_toEndOf="@+id/textView7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mg/dL"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/hicalculate"
+        android:layout_toEndOf="@+id/textView2" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Heart Age"
+        android:id="@+id/heartage"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/hicalculate" />
+
+
+</RelativeLayout>

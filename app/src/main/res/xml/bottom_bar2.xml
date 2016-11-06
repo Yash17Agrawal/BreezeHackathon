@@ -1,0 +1,13 @@
+<tabs>
+    <tab
+        id="@+id/data_usage"
+        icon="@drawable/chart"
+        title="Data Usage"
+        />
+    <tab
+        id="@+id/category"
+        icon="@drawable/category"
+        title="Categorically"
+        />
+
+</tabs>

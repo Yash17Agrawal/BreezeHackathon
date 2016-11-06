@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ProfileAnalyser</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="Smoking">Smoking : </string>
+    <string-array name="smoking_category">
+        <item>Non Smoker/Quit years ago</item>
+        <item>1/2 Cigarettes/week</item>
+        <item>1/2 Cigarettes/month</item>
+        <item>Quit month/months ago</item>
+        <item>Regular Smoker</item>
+    </string-array>
+    <string-array name="ft_category">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="inch_category">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="active_category">
+        <item>more than 60 min walking/day</item>
+        <item>more than 20 min running/day</item>
+        <item>more than 30 min walking/day</item>
+        <item>more than 10 min running/day</item>
+        <item>Not at all</item>
+    </string-array>
+    <string-array name="diet_category">
+        <item>more than 5 fruits + vegetables /day</item>
+        <item>more than 3 fruits + vegetables /day</item>
+        <item>more than 1 fruits + vegetables /day</item>
+        <item>Not at all</item>
+    </string-array>
+    <string-array name="diabetic_category">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string name="default_text">--</string>
+    <string name="app_id">956267021166004</string>
+</resources>

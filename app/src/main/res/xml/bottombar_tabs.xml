@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        id="@+id/facebook"
+        icon="@drawable/facebook"
+        title="Facebook"
+        />
+    <tab
+        id="@+id/twitter"
+        icon="@drawable/twitter"
+        title="Twitter"
+        />
+    <!--<tab-->
+        <!--id="@+id/tab_internal"-->
+        <!--icon="@drawable/internal"-->
+        <!--title="Internal Memory"-->
+        <!--/>-->
+</tabs>
